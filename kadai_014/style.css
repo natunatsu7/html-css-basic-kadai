@@ -1,0 +1,28 @@
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  /* h1フォントはGoogle Fontsの Josefin Sansフォント*/
+  font-family: 'Noto Sans JP', sans-serif;
+  /* フォントサイズは2倍 */
+  font-size: 40px;
+  letter-spacing: 48px;
+  text-shadow: 2px 2px 5px green;
+  border-bottom: solid 3px rgb(115, 115, 114);
+}
+
+.pink {
+  color: pink;
+}
+
+.skyblue {
+  color: skyblue;
+}
+
+#basic > p {
+  font-weight: bold;
+}
+
