@@ -36,15 +36,10 @@ main {
 
 }
 
-.contents p:nth-of-type(2) {
+.contents p:nth-of-type(2)::first-letter { 
   font-weight: bold;
-  
   color: rgb(97, 206, 249);
-  }
-
-/* .contents p::first-letter { 
-  font-weight: bold;
-}*/
+}
 
 h2 {
   text-decoration: underline;
